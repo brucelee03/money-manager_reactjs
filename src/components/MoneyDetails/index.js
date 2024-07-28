@@ -6,7 +6,7 @@ const MoneyDetails = (totalBalance, totalIncome, totalExpenses) => {
       <img
         src="https://assets.ccbp.in/frontend/react-js/money-manager/balance-image.png"
         alt="balance"
-        className="png"
+        className="money-img"
       />
       <div className="money-details">
         <p className="transaction-type">Your Balance</p>
@@ -19,7 +19,7 @@ const MoneyDetails = (totalBalance, totalIncome, totalExpenses) => {
       <img
         src="https://assets.ccbp.in/frontend/react-js/money-manager/income-image.png"
         alt="income"
-        className="png"
+        className="money-img"
       />
       <div className="money-details">
         <p className="transaction-type">Your Income</p>
@@ -32,7 +32,7 @@ const MoneyDetails = (totalBalance, totalIncome, totalExpenses) => {
       <img
         src="https://assets.ccbp.in/frontend/react-js/money-manager/expenses-image.png"
         alt="expenses"
-        className="png"
+        className="money-img"
       />
       <div className="money-details">
         <p className="transaction-type">Your Expenses</p>

@@ -40,8 +40,13 @@ class MoneyManager extends Component {
 
   onSubmitTheTransaction = event => {
     event.preventDefault()
-    const {titleInput, amountInput, selectedType, totalIncome, totalExpenses} =
-      this.state
+    const {
+      titleInput,
+      amountInput,
+      selectedType,
+      totalIncome,
+      totalExpenses
+    } = this.state
 
     const newTransaction = {
       id: uuidv4(),
@@ -72,8 +77,12 @@ class MoneyManager extends Component {
   }
 
   onDeleteTransaction = id => {
-    const {totalBalance, totalIncome, totalExpenses, transactionsList} =
-      this.state
+    const {
+      totalBalance,
+      totalIncome,
+      totalExpenses,
+      transactionsList
+    } = this.state
     const transactionToDelete = transactionsList.find(
       transaction => transaction.id === id,
     )
